@@ -193,9 +193,9 @@ h2 {
 .box1 p {
 		color: white;
     font-size: 22px;
-    position: relative;
-        top: 58%;
-    left: 21%;
+    position: absolute;
+    top: 58%;
+    left: 50%;
     transform: translateY(-20%);
     margin: 0;
 }
