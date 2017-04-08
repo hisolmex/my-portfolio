@@ -147,8 +147,8 @@ section {
 	color: #2c3e50;
 }
 .portfolio img {
-	width: 360px;
-	height: 240px;
+	max-width: 360px;
+	height: auto;
 }
 h2 {
 	margin: 0;
@@ -205,10 +205,7 @@ h2 {
     transform: translateY(-20%);
     margin: 0;
 }
-.portfolio img:last-child {
-	width: 200px;
-	height: auto;
-}
+
 .img-behance {
 
 }
@@ -240,40 +237,7 @@ button.s {
 button.s:hover {
 	background: #363837;
 }
-.wrapper {
-    position: relative;
-	margin: 0;
-    padding: 0;
-    width: 360px;
-    height: 240px;
-}
-.caption {
-	position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-   background: rgba(24,188,156,.9);
-    right: 0;
-    width: 360px;
-	height: auto;
-    margin: 0 auto;
-    opacity: 0;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-.caption p {
-	color: white;
-    font-size: 19px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;
-}
-.caption:hover {
-	opacity: .7;
-	cursor: pointer;
-}
+
 .contact button {
 	color: #ffffff;
     background-color: #18bc9c;
@@ -312,7 +276,7 @@ button.s:hover {
     padding: 0 10px;
 }
 .social-media a {
-        text-decoration: none;
+    text-decoration: none;
     color: #a55555;
     height: 63px;
     line-height: 61px;
@@ -324,6 +288,10 @@ button.s:hover {
 }
 .fa {
 	width: 18px;
+}
+.img-behance {
+    width: 177px;
+   
 }
 ul.social-icons {
     margin: 0;
@@ -382,6 +350,41 @@ textarea.form-control {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(24,188,156,.9);
+    right: 0;
+    max-width: 360px;
+    height: auto;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+.caption p {
+    color: white;
+    font-size: 19px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+.wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+	width: 360px;
+    height: 240px;
+   
+}
+.caption:hover {
+    opacity: .7;
+    cursor: pointer;
+}
 footer p {
 	margin: 0;
 }
@@ -390,7 +393,17 @@ footer {
     background-color: #233140;
 	color: white;
 }
+img.img-behance {
+    width: 132px;
+}
 
+
+@media (min-width: 1245px) {
+	
+	img.img-behance {
+		width: 132px;
+	}
+}
 @media (max-width: 1023px) { 
 	header {
 		height: auto;
@@ -406,6 +419,15 @@ footer {
 	header>nav>ul {
 		float: none;
 	}
+	.gallery .col-4 {
+		width: 50%;
+		display: block;
+	}
+	.portfolio img {
+		width: 300px;
+		height: auto;
+	}
+
 }
 @media (max-width: 720px) {
 	.social-media .col-4 {
@@ -413,6 +435,15 @@ footer {
 		display: block;
 	
 	}
+	img.img-behance {
+		width: 132px;
+	}
+	.portfolio img {
+		width: 240px;
+		height: auto;
+	}
+
+	
 	header>nav>ul>li>a {
 		line-height: 88px;
 	}
@@ -432,11 +463,11 @@ footer {
 	textarea.form-control {
 		float: none;
 	}
-	.nn {
-		clear: both;
-	}
+	
 }
 @media (max-width: 540px) {
+
+
 	.about .col-4 {
 		width: 100%;
 		display: block;
@@ -460,6 +491,10 @@ footer {
 	.col-3.item {
 		display: block;
 		width: 100%;
+	}
+	.gallery .col-4 {
+		width: 100%;
+		display: block;
 	}
 }
 
