@@ -147,8 +147,9 @@ section {
 	color: #2c3e50;
 }
 .portfolio img {
-	max-width: 360px;
+	max-width: 100%;
 	height: auto;
+	
 }
 h2 {
 	margin: 0;
@@ -357,7 +358,7 @@ textarea.form-control {
     bottom: 0;
     background: rgba(24,188,156,.9);
     right: 0;
-    max-width: 360px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
     opacity: 0;
@@ -377,8 +378,8 @@ textarea.form-control {
     position: relative;
     margin: 0;
     padding: 0;
-	width: 360px;
-    height: 240px;
+	max-width: 100%;
+    height: auto;
    
 }
 .caption:hover {
@@ -419,12 +420,12 @@ img.img-behance {
 	header>nav>ul {
 		float: none;
 	}
-	.gallery .col-4 {
+	.portfolio .col-4 {
 		width: 50%;
 		display: block;
 	}
 	.portfolio img {
-		width: 300px;
+		width: auto;
 		height: auto;
 	}
 
@@ -439,7 +440,7 @@ img.img-behance {
 		width: 132px;
 	}
 	.portfolio img {
-		width: 240px;
+		width: auto;
 		height: auto;
 	}
 
@@ -492,7 +493,7 @@ img.img-behance {
 		display: block;
 		width: 100%;
 	}
-	.gallery .col-4 {
+	.portfolio .col-4 {
 		width: 100%;
 		display: block;
 	}
