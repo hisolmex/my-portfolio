@@ -424,6 +424,9 @@ img.img-behance {
 		width: 50%;
 		display: block;
 	}
+	.nn {
+		clear: both;
+	}
 	.portfolio img {
 		width: auto;
 		height: auto;
@@ -475,6 +478,7 @@ img.img-behance {
 		margin-left: 0;
 		
 	}
+	
 	input.form-control {
 		float: none;
 	}
