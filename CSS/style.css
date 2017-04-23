@@ -169,6 +169,10 @@ h2 {
 	margin: 0 0 10.5px;
 	text-align: left;
 }
+
+img.img-responsive2 {
+    opacity: 0.3;
+}
 .btn {
     margin-top: 15px;
     border: solid 2px #fff;
