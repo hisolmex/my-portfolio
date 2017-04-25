@@ -155,7 +155,7 @@ h2 {
 	margin: 0;
 	text-transform: uppercase;
 	font-weight: 700;
-	
+	margin-top: 10px;
 }
 .about {
     color: #fff;
@@ -164,12 +164,28 @@ h2 {
 .about .fa {
 	    margin-right: 14px;
 }
+.img-hobby {
+	max-width: 100%;
+	height: auto;
+	border-radius: 6px;
+	border: 1px solid rgba(255, 255, 255, 0.32);
+}
 .about p {
 	font-size: 20px;
 	margin: 0 0 10.5px;
 	text-align: left;
 }
-
+.right {
+	text-align: right;
+	padding-right: 20px;
+}
+.left {
+	text-align: left;
+	padding-left: 20px;
+}
+p.txt-hobby {
+	margin-top: 20%;
+}
 img.img-responsive2 {
     opacity: 0.3;
 }
