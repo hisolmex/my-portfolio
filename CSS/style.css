@@ -490,8 +490,13 @@ img.img-behance {
 	
 }
 @media (max-width: 540px) {
-
-
+	.right {
+		padding-right: 20px;
+	}
+	.left {
+		
+		padding-left:0;
+	}
 	.about .col-4 {
 		width: 100%;
 		display: block;
